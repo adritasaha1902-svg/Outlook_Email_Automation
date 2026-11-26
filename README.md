@@ -96,3 +96,11 @@ This VBA automation solution reduces manual work and improves reporting efficien
 ## Author
 
 Excel VBA Automation Project – Portfolio Demonstration
+
+## License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this project's VBA source code, subject to the terms and conditions of the MIT License.
+
+See the LICENSE file for details.
