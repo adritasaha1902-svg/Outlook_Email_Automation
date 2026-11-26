@@ -56,6 +56,7 @@ This VBA automation solution reduces manual work and improves reporting efficien
 
 - Download the Excel workbook.
 - Open the workbook in desktop Microsoft Excel.
+- Update the month wise department information for each of the department reports. 
 - Enable macros if the file is trusted.
 - Open the VBA editor using `ALT + F11`.
 - Import the `Department_Email_Automation.bas` module.
