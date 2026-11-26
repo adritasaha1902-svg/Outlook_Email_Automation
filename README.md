@@ -4,7 +4,7 @@
 
 This project automates email distribution using Excel VBA and Microsoft Outlook.
 
-The solution reads recipient information from an Excel worksheet, generates personalized emails with dynamic subject lines, attaches department-specific Excel reports, and sends or displays emails based on user-defined settings.
+The solution reads recipient information from an Excel worksheet, generates personalized emails with dynamic subject lines, converts department-specific Excel reports into pdf files and sends them to the respective departments heads as attachments, displays summary tables containing overview of the department reports to their respective emails and sends or displays emails based on user-defined settings.
 
 ## Business Problem
 
@@ -17,16 +17,16 @@ This VBA automation solution reduces manual work and improves reporting efficien
 - Read recipient email addresses from Excel.
 - Generate personalized email greetings for department heads.
 - Create dynamic email subject lines.
-- Generate separate Excel reports for Sales, Finance, HR, and Operations.
+- Generate separate pdf reports for Sales, Finance, HR, and Operations.
 - Attach department-specific reports to the corresponding recipients.
-- Create professional HTML emails with tables, colors, bold headings, and signatures.
+- Create professional HTML emails with tables, colors, and bold headings. 
 - Send emails automatically using Outlook.
 - Display emails before sending for review.
 - Prevent duplicate email distribution.
 - Validate email addresses.
 - Handle runtime errors.
 - Maintain an email execution log.
-- Generate an execution summary.
+  
 
 ## Technologies Used
 
@@ -61,7 +61,6 @@ This VBA automation solution reduces manual work and improves reporting efficien
 - Import the `Department_Email_Automation.bas` module.
 - Configure department head details in the `Email_List` worksheet.
 - Enter the reporting period and email settings in the `Email_Control` worksheet.
-- Update the four department report worksheets with the latest data.
 - Select `DISPLAY` mode to review the emails.
 - Select `SEND` mode to distribute the reports automatically.
 - Run the `Run_Department_Email_Automation` macro.
