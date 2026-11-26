@@ -1,0 +1,19 @@
+# Excel temporary and backup files
+~$*.xlsx
+~$*.xlsm
+*.tmp
+*.bak
+
+# Temporary Office files
+*.temp
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# VBA export backup files
+*.vbw
+
+# Personal or confidential files
+*.env
+credentials.txt
