@@ -26,6 +26,7 @@ This VBA automation solution reduces manual work and improves reporting efficien
 - Validate email addresses.
 - Handle runtime errors.
 - Maintain an email execution log.
+- Generates an email execution summary 
   
 
 ## Technologies Used
